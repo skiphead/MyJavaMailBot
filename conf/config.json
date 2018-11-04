@@ -1,0 +1,26 @@
+{
+  settings: {
+    "userName": "user@gmail.com",
+    "passWord": "my_password",
+    "permitFolder": "READ_WRITE",
+    "debugMode": "true",
+    "mailStoreHost": "imap.gmail.com",
+    "mailStoreProtocol": "imaps",
+    "mailImapStarttlsEnable": "true",
+    "mailImapSslTrust": "imap.gmail.com",
+    "mailImapPlainDisable": "false",
+    "mailSsmtpHost": "smtp.gmail.com",
+    "mailSmtpStarttlsEnable": "true",
+    "mailSmtpSslTrust": "smtp.gmail.com",
+    "mailSmtpPort": "587",
+    "mailSmtpAuth": "true",
+    "mailSmtpDebug": "true"
+  },
+  sentmsg: {
+    "message": "",
+    "accessDeny": "",
+    "from": "imap.from",
+    "re": "Re",
+    "recepient": ""
+  }
+}
