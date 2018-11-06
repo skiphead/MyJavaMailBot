@@ -1,10 +1,3 @@
-# MyJavaMailBot
-This is my first program in Java. 
-Created to develop programming skills and automate some routine tasks. 
-If the program will be useful to you, please put a star :-)
-
-Stable running on the JDK 8
-
 # How to use?
 
 1.  Configure json file conf/config.json
@@ -18,3 +11,11 @@ MyMailJavaBot continuously checks for new messages on the imap protocol. If the 
 # Example
 
 For a visual example, the bot can send a message in the body of the letter by writing the “help me” command, in response the bot will send a manpage from conf/man.page.
+
+# PS:
+
+This is my first java-program.
+Designed for pumping programming skills in Java and automating some routine tasks.
+If the program for you is a program, please put a star :-)
+
+Stable work on JDK 8
