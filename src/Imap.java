@@ -56,7 +56,7 @@ public class Imap {
                 Thread.sleep(60000);
             }
         } catch (MessagingException e) {
-            // Печать информации об исключении в случае его возникновения
+            //Какая то прилетела бага :)
             System.out.println(e);
         }
     }
