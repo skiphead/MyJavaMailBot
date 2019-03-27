@@ -10,7 +10,6 @@ public class Settings  {
     private ReadJsonFile readjson = new ReadJsonFile();
     private String jsonF = readjson.readfile();
     private JsonParser parser = new JsonParser();
-    //JsonElement jsonElement = parser.parse("{\"smtpHost\":\"mx-1.gosniip.ru\",\"smtpPort\":\"587\",\"userName\":\"robot\",\"passWord\":\"rob2018\"}");
     private JsonElement jsonElement = (JsonElement) parser.parse(String.valueOf(jsonF));
 
 
